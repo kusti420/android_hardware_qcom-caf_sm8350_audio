@@ -17,6 +17,7 @@
 #define LOG_TAG "audio_hw_primary"
 
 #include <cinttypes>
+#include <mutex>
 
 #include <utils/Log.h>
 #include <utils/Mutex.h>

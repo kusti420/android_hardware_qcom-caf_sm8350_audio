@@ -37,6 +37,8 @@
 #include <healthhalutils/HealthHalUtils.h>
 #include <hidl/HidlTransportSupport.h>
 #include <thread>
+#include <mutex>
+#include <condition_variable>
 #include "battery_listener.h"
 
 using android::hardware::interfacesEqual;
